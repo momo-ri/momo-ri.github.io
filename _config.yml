@@ -14,9 +14,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 우도현 # the main title
+title: 김태리 # the main title
 
-tagline: 도현's devops 도전기 # it will display as the subtitle
+tagline: 태리's [세무사] 도전기 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
