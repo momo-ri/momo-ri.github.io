@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<article class="px-1">
+  {% if page.layout == 'page' or page.collection == 'tabs' %}
+    {% assign tab_key = page.title | downcase %}
+    {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+    <h1 class="dynamic-title">
+      {{ title }}
+    </h1>
+    <div class="content">
+      {{ content }}
+    </div>
+
+
+    {% if page.url contains '/categories/' %}
+      <script>
+        {% include js/category-view-loader.js %}
+      </script>
+    {% endif %}
+
+    
+  {% else %}
+    {{ content }}
+  {% endif %}
+</article>
