@@ -16,8 +16,7 @@ title: 김태리 # 메인 타이틀
 
 tagline: 태리's [세무사] 도전기 # 블로그 부제목
 
-description: >- # SEO 및 RSS 피드용 설명
-  CTA 세무사 시험합격 도전기 | 재무회계, 원가관리회계, 세법, 재정학 학습 일지 및 수험 기록
+description: CTA 세무사 시험합격 도전기 | 재무회계, 원가관리회계, 세법, 재정학 학습 일지 및 수험 기록
 
 # 본인의 GitHub Pages 주소로 변경하세요. (예: 'https://username.github.io')
 url: "https://your-username.github.io"
